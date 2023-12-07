@@ -15,6 +15,7 @@ public class write {
 
             // FileOutputStream fos = new FileOutputStream(path);
             // fos.write('c');
+            // fos.closed();
         } catch (Exception e) {
             e.printStackTrace();
         }

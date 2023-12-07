@@ -19,7 +19,6 @@ public class SerDer {
         try {
             FileOutputStream fos = new FileOutputStream(path);
             ObjectOutputStream oos = new ObjectOutputStream(fos);
-
             oos.writeObject(t);
             oos.close();
             fos.close();

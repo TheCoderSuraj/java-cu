@@ -2,8 +2,8 @@ package prac;
 
 public class q {
     public static void main(String[] args) {
-        // Car c = new Car();
-        // c.print();
+        Car c = new Car();
+        c.print();
         Rectangle rec = new Rectangle(23, 32);
         rec.printArea();
     }

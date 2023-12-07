@@ -11,9 +11,13 @@ public class read {
 
         try {
             FileReader fr = new FileReader(path);
-            Scanner sc = new Scanner(fr);
-            while (sc.hasNext()) {
-                System.out.println(sc.nextLine());
+            // Scanner sc = new Scanner(fr);
+            // while (sc.hasNext()) {
+            // System.out.println(sc.nextLine());
+            // }
+            int c;
+            while ((c = fr.read()) != -1) {
+                System.out.print((char) c);
             }
             fr.close();
 
